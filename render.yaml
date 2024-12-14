@@ -1,0 +1,10 @@
+services:
+  - name: JobPorter
+    type: web
+    env: node
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "nodemon index.js"
+    plan: free
+    branch: main
+    autoDeploy: true
