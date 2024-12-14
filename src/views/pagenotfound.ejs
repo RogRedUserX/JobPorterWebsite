@@ -1,0 +1,15 @@
+<div class="error-box container-fluid bg-theme">
+    <div class="top">
+      <h1 style="color: white; font-size: 100px">OOPs</h1>
+      <img
+        width="400px"
+        src="https://cdn.rawgit.com/ahmedhosna95/upload/1731955f/sad404.svg"
+        alt="404"
+      />
+    </div>
+    <%if (errorMessage){ %>
+      <h1 class="p-a text-danger"><%=errorMessage %></h1> 
+    <% } else{ %> 
+      <h1 class="p-a text-danger">Recruiters only, Please log in to access this page</h1>
+    <% } %>
+</div>
